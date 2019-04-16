@@ -1,0 +1,16 @@
+#flip {
+  color: blue;
+}
+#button {
+  border: 2px black solid;
+  color: darkgreen;
+  padding: 12px 8px;
+  border-radius: 5px;
+  font-family: sans-serif;
+  transition: all 0.5s;
+}
+#button:hover {
+  color: white;
+  background-color: darkgreen;
+  font-size: 30px;
+}
