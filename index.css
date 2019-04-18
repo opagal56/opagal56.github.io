@@ -15,6 +15,19 @@
 /* Comment */
 
 #box-model{
-    border: blue 70px dotted;
+    border: blue 70px solid;
     padding: 10px;
+}
+ol{
+  list-style: upper-roman;
+}
+ul{
+  list-style: square;
+}
+table,th,td{
+border: 1px solid black;
+border-collapse: collapse;
+}
+th,td{
+  padding: 6px;
 }
