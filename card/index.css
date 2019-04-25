@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.card-container {
+  height: 600px;
+  width: 600px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 5px;
+  margin: 50px auto;
+}
+img {
+  width: 80px;
+  height: 80px;
+}
+.card {
+  border: solid 2px black;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.unselected {
+  background-color: black;
+}
+.unselected img {
+  display: none;
+}

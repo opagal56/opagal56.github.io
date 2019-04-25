@@ -94,3 +94,19 @@
 .card-4 {
   background-color: green;
 }
+@media (max-width: 840px) {
+  .nav-container {
+    flex-direction: column;
+    margin: 20px 0px;
+    height: 220px;
+  }
+  .main-section {
+    padding: 300px;
+  }
+}
+
+@media (max-width: 800px) {
+  .card {
+    width: 100%;
+  }
+}
