@@ -1,33 +1,23 @@
-#heading {
-  color: yellow
-  font-size: 100px;
-  font-weight: bold;
-  font-family: "OCR A Std", sans-serif;
+.ultra {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 930px;
+  height: 800px;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
+  border: solid 5px black;
 }
-.background-purple {
-  color: #163e80;
-  background: rgb(228, 228, 228);
-  opacity: 0.6;
-  font-size: 20px;
-  text-decoration: overline;
-  font-family: cursive;
+.pik {
+  height: 100%;
+  border: solid 5px black;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  color: royalblue;
 }
-/* Comment */
 
-#box-model{
-    border: blue 70px solid;
-    padding: 10px;
-}
-ol{
-  list-style: upper-roman;
-}
-ul{
-  list-style: square;
-}
-table,th,td{
-border: 1px solid black;
-border-collapse: collapse;
-}
-th,td{
-  padding: 6px;
+.but:hover {
+  background-color: burlywood;
+  font-size: 20px;
 }

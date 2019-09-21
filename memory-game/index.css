@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    width: 600px;
+    height: 600px;
+    
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    font-size: 4em;
+    color: white;
+    border-radius: 10px;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.card-1, .card-9{
+    background-color: blue;
+}
+
+.card-2, .card-7{
+    background-color: blueviolet;
+}
+
+.card-3, .card-14{
+    background-color: rgb(12, 197, 243)
+}
+
+.card-4, .card-15{
+    background-color: goldenrod;
+}
+
+.card-5, .card-16{
+    background-color: red;
+}
+
+.card-6, .card-13{
+    background-color: green
+}
+
+.card-8, .card-12{
+    background-color: rgb(129, 46, 21);
+}
+
+.card-10, .card-11 {
+    background-color: brown;
+}
+
+.unselected {
+    background-color: #455A64
+}
+
+.unselected i{
+    visibility: hidden;
+}
